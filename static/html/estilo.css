@@ -1,0 +1,86 @@
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #C71617 !important;
+    border-color: #C71617 !important;
+    width: 134px !important;
+    height: 36px !important;
+    margin-top: 50px;
+}
+a:link, a:visited{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+a:hover, a:active {
+  text-decoration: none;
+  background-color: #DCFFDB;
+}
+footer{
+    bottom: 0;
+}
+
+footer{
+    background-color: #2F9336;
+    color: white;
+    padding: 35px 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin:auto;
+}
+.bottom-footer{
+    background-color: #DCFFDB;
+    color: #101010;
+    height: 25px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    font-weight: bold;
+}
+.top-banner{
+    background-color: #2F9336;
+    padding: 20px 40%;
+    color: white;
+}
+.container{
+
+}
+.form-login{
+    background-color: #DCFFDB;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 3% 32%;
+    margin-bottom: 200px;
+}
+input, textarea {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray
+  background-color: #FFFFFF;
+}
+input:focus {
+  border-color: green
+}
+
+.sidebar{
+    background-color: #B5DDB4;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+}
+.main-page{
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 80%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    padding-top: 20px;
+}
