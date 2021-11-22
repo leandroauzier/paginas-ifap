@@ -74,6 +74,22 @@ input:focus {
     padding-top: 20px;
 
 }
+.sideitems{
+    text-align: left;
+    padding-left: 20px;
+    color: #454545;
+}
+ul {
+  position: relative;
+}
+li {
+  list-style: none;
+}
+li.child::before {
+  transform: scale(1, 1.8);
+  position: absolute;
+  left: 1em;
+}
 .main-page{
     background-color: #FFFFFF;
     height: 100%;
@@ -83,4 +99,14 @@ input:focus {
     top: 0;
     right: 0;
     padding-top: 20px;
+}
+.main-title{
+    padding: 20px 20px 20px 100px;
+    color: #454545
+}
+.page-description{
+    font-weight: bold;
+    color: #454545
+    padding: 20px 20px 20px 100px;
+    padding-left: 100px;
 }
